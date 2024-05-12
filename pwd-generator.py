@@ -6,7 +6,7 @@ import string
 # Password Generation Function
 def password():
     password = []
-    len = int(sizz< e_var.get())
+    len = int(size_var.get())
     for x in range(len):
         if upper_var.get() == 1:
             password += [random.choice(string.ascii_uppercase)]
